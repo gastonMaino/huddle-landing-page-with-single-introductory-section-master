@@ -18,10 +18,11 @@ body {
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   body {
     background-image: url(/assets/images/bg-desktop.svg);
-    background-position: -40px -40px;
+    background-position: -10px -0.5px;
+    background-size: contain;
     margin-top: 15px;
   }
 
@@ -51,7 +52,7 @@ body {
 }
 
 .picture {
-  margin: 65px 25px;
+  margin: 60px 25px;
 }
 
 .picture__img {
@@ -64,16 +65,17 @@ body {
 
 @media screen and (min-width: 768px) {
   .picture{
-    margin-top: 70px;
+    margin-top: 90px;
 
   }
   .picture__img {
-    margin-left: 35px;
+    margin-left: 65px;
   }
 
   .header__img {
-    max-width: 30%;
-    margin-left: 70px;
+    max-width: 25%;
+    margin-left: 85px;
+    margin-bottom: 0;
   }
 
   .texts {
@@ -95,7 +97,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .texts__title {
-    margin-top: 175px;
+    margin-top: 190px;
     font-size: 2.5rem;
     text-align: left;
   }
@@ -167,6 +169,7 @@ body {
     justify-content: flex-end;
     margin-left: 0;
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
